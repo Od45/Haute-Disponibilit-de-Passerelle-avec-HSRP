@@ -27,7 +27,7 @@ Ce projet met en œuvre un mécanisme de **redondance de passerelle par défaut 
 
 ## 📥 Tester le projet
 
-Le fichier de simulation Cisco Packet Tracer (`.pkt`) est disponible dans ce dépôt : **[hsrp-gateway-redundancy.pkt](./hsrp-gateway-redundancy.pkt)**.
+Le fichier de simulation Cisco Packet Tracer (`.pkt`) est disponible dans ce dépôt : **[HSRP.pkt](./HSRP.pkt)**.
 
 Ouvre-le avec [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer) (gratuit, inscription NetAcad requise) pour :
 - explorer l'ensemble des configurations de R1, R2 et du switch d'accès,
@@ -70,7 +70,7 @@ Chaque sous-interface porte un groupe HSRP dédié (groupe 10 pour le VLAN 10, g
 
 Le protocole Rapid-PVST+ est activé sur le switch reliant les deux routeurs, avec définition explicite du pont racine pour le VLAN 1, garantissant une topologie sans boucle stable.
 
-![Configuration Rapid-PVST+ et pont racine](02_switches_spanning_tree_rapid_pvst_config.png)
+![Configuration Rapid-PVST+ et pont racine](2_switches_spanning_tree_rapid_pvst_config.png)
 
 ### Sécurisation de l'administration à distance
 
@@ -116,7 +116,7 @@ Depuis un poste client (hors sous-réseau de management), les tentatives de conn
 
 ```
 ├── README.md
-├── hsrp-gateway-redundancy.pkt          ← fichier de simulation à ouvrir dans Packet Tracer
+├── HSRP.pkt                              ← fichier de simulation à ouvrir dans Packet Tracer
 ├── 01_topologie_reseau_packet_tracer.png
 ├── 2_switches_spanning_tree_rapid_pvst_config.png
 ├── 03_routers_dhcp_pools_and_dot1q_config.png
@@ -131,6 +131,6 @@ Depuis un poste client (hors sous-réseau de management), les tentatives de conn
 
 ## 👤 Auteur
 
-*[ALAYE Odilon Alabi]* 
+*[ALAYE Odilon Alabi]*
 
 N'hésite pas à me contacter pour toute question sur ce projet ou pour échanger sur des opportunités en administration réseau / infrastructure.
