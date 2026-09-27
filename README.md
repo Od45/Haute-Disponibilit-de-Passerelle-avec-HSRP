@@ -70,7 +70,7 @@ Chaque sous-interface porte un groupe HSRP dédié (groupe 10 pour le VLAN 10, g
 
 Le protocole Rapid-PVST+ est activé sur le switch reliant les deux routeurs, avec définition explicite du pont racine pour le VLAN 1, garantissant une topologie sans boucle stable.
 
-![Configuration Rapid-PVST+ et pont racine](2_switches_spanning_tree_rapid_pvst_config.png)
+![Configuration Rapid-PVST+ et pont racine](02_switches_spanning_tree_rapid_pvst_config.png)
 
 ### Sécurisation de l'administration à distance
 
